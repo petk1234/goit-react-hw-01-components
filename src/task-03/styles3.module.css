@@ -1,0 +1,30 @@
+.friendsList{
+    outline: 1px solid red;
+    list-style: none;
+}
+.item{
+    display: flex;
+    outline: 1px solid green;
+    align-items: center;
+}
+.status{
+    /* display: inline-block; */
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+.online{
+    background: greenyellow;
+}
+.offline{
+    background: red;
+}
+.avatar{
+    /* display: inline-block; */
+}
+.name{
+    display: inline-block;
+    /* align-items: center; */
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
